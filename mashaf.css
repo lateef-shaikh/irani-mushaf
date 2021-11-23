@@ -39,19 +39,19 @@ h1 {
 }
 
 .eoAaya {
-    font-size: 2.5vw;
+    font-size: calc(1.5vw + 1em);
     font-family: 'PakType Naskh Basic Wide';
     color: darkgreen;
 }
 
 .reh {
-    font-size: 1vw;
+    font-size: calc(0.15vw + 1em);
     font-family: 'PakType Naskh Basic Wide';
-    color: darkreds;
+    color: darkred;
 }
 
 .ramooz {
-    font-size: 2.5vw;
+    font-size: calc(0.5vw + 1em);
     font-family: 'PakType Naskh Basic Wide','Noto Naskh Arabic UI';
     color: darkblue;
 }
@@ -60,15 +60,28 @@ h1 {
         content: "\200c\00a0"; /* zwnj + nbsp "\200c\00a0" */
     }
 
+.ramoozWide {
+    font-size: calc(0.5vw + 1em);
+    font-family: 'PakType Naskh Basic Wide','Noto Naskh Arabic UI';
+    color: darkblue;
+}
+
+    .ramoozWide:before {
+        content: "\00a0\00a0"; /* zwnj + nbsp "\200c\00a0" */
+    }
+
+    .ramoozWide:after {
+        content: "\00a0"; /* zwnj + nbsp "\200c\00a0" */
+    }
 .body {
-    font-size: 1.5vw;
+    font-size: calc(0.5vw + 1em);
     /*font-family: 'Noto Naskh Arabic UI';*/
     font-family: 'PakType Naskh Basic Wide','Noto Naskh Arabic UI';
     position: relative;
 }
 
 .heading {
-    font-size: 4vw;
+    font-size: calc(2vw + 1em);
     font-family: 'PakType Naskh Basic Wide','Noto Naskh Arabic UI';
 }
 
@@ -77,7 +90,7 @@ p {
 }
 
 .juz {
-    font-size: 1vw;
+    font-size: calc(0.5vw + 0.35em);
     position: absolute;
     left: 0vw;
     width: 5.5vw;
@@ -88,17 +101,17 @@ p {
 }
 
 .manzil {
-    font-size: 1vw;
+    font-size: calc(0.5vw + 0.35em);
     position: absolute;
     left: 5vw;
     display: grid;
-    width: 6vw;
+    width: 5vw;
     color: darkmagenta;
     user-select: none;
 }
 
 .reh-hashiya {
-    font-size: 1vw;
+    font-size: calc(0.5vw + 0.35em);
     position: absolute;
     left: 12vw;
     display: inline-grid;
@@ -112,10 +125,41 @@ p {
 }
 
 .hashiya {
-    font-size: 1vw;
+    font-size: calc(0.5vw + 0.35em);
     position: absolute;
     left: 12vw;
     display: inline-grid;
     width: 6vw;
     user-select: none;
 }
+
+[data-type="eoa-izafi"] {
+    font-size: calc(0.5vw + 0.35em);
+    position: absolute;
+    display: inline;
+    left: 5vw;
+    width: 6vw;
+    color: darkgreen;
+}
+
+[data-type="ra-izafi"] {
+    color: darkblue;
+}
+
+.ruku {
+    font-size: calc(0.5vw + 0.35em);
+    position: absolute;
+    display: inline;
+    left: 0vw;
+    background-color: lightgray;
+    user-select: none;
+}
+
+    .ruku:after {
+        background-color: lightgray;
+    }
+
+    .ruku:after {
+        content: "ع";
+        background-color: lightgray;
+    }
