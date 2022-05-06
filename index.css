@@ -1,0 +1,42 @@
+﻿
+@import url(http://fonts.googleapis.com/earlyaccess/notonaskharabicui.css);
+
+/*
+ * PakType fonts http://paktype.sourceforge.net/download.php
+ * Code: https://svn.code.sf.net/p/paktype/code/Fonts/Deployment
+ */
+
+
+
+@font-face {
+  font-family: 'PakType Naskh Basic Wide';
+  font-style: normal;
+  src: url(PakTypeNaskhBasicWide.eot);
+  src: url(PakTypeNaskhBasicWide.eot?#iefix) format('embedded-opentype'),
+       url(PakTypeNaskhBasicWide.woff2) format('woff2'),
+       url(PakTypeNaskhBasicWide.woff) format('woff'),
+       url(PakTypeNaskhBasicWide.ttf) format('truetype'),
+       url(PakTypeNaskhBasicWide.svg#svgFontName) format('svg'); /* Legacy iOS */
+
+}
+
+html {
+    direction: rtl;
+}
+.sooralink {
+    text-decoration: none;
+    padding-right: 2em;
+}
+
+.body {
+    font: normal 1vw 'PakType Naskh Basic Wide';
+    line-height: 2vw;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
