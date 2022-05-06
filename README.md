@@ -9,7 +9,7 @@ This repositry uses text from http://moshaf.org/page/IranMoshaf_Arabi therefore 
 ## About this repository
 This repository has individual HTML5 files for every soora. Since HTML5 is based on XML therefore these files can be used as an XML source for your API.
 
-## Salient features of Uthmani script are:
+## Salient features of this mushaf are:
 * Usage of end of ayah (U+06DD) with Arabic numbers
 * Separate tags for ramooz signs within text
 * Separate tags for additional information which is normally published in the margins
