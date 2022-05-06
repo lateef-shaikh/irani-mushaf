@@ -40,7 +40,7 @@ h1 {
 
 .eoAaya {
     font-size: calc(1.5vw + 1em);
-    font-family: 'PakType Naskh Basic Wide';
+    font-family: 'PakType Naskh Basic Wide';    
     color: darkgreen;
 }
 
@@ -53,6 +53,7 @@ h1 {
 .ramooz {
     font-size: calc(0.5vw + 1em);
     font-family: 'PakType Naskh Basic Wide','Noto Naskh Arabic UI';
+    font-weight: 600;
     color: darkblue;
 }
 
@@ -63,6 +64,7 @@ h1 {
 .ramoozWide {
     font-size: calc(0.5vw + 1em);
     font-family: 'PakType Naskh Basic Wide','Noto Naskh Arabic UI';
+    font-weight: 600;
     color: darkblue;
 }
 
