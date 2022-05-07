@@ -11,9 +11,11 @@ This repository has individual HTML5 files for every soora. Since HTML5 is based
 
 ## Salient features of this mushaf are:
 * Usage of end of ayah (U+06DD) with Arabic numbers
+* Usage of small fatha, damma and kasra (U+0618, U+0619 and U+061A) where needed
 * Separate tags for ramooz signs within text
 * Separate tags for additional information which is normally published in the margins
 * Each ayah has attributes for juz, manzil, hizb and hizb quarter numbers
+* List of all characters used in this mushaf is located here: https://karachvi.com/quran/charsUsedIrani.html
 
 ## Hosted at
 The contents of this repository are hosted at [Karachvi.com](https://www.karachvi.com)
